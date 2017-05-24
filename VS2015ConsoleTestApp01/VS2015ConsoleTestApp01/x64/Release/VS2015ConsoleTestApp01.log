@@ -1,0 +1,56 @@
+﻿Build started 4/22/2017 10:06:36 AM.
+     1>Project "D:\CesarBragagnini\Test_OpenCV_OpenGL\VS2015ConsoleTestApp01\VS2015ConsoleTestApp01\VS2015ConsoleTestApp01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\CesarBragagnini\opencv\build\x86\vc12\..\..\include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Character.cpp KFTracking1.cpp main.cpp ModelData.cpp shader.cpp TrackingGrid1.cpp
+         Character.cpp
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Character.h(5): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+         KFTracking1.cpp
+     1>KFTracking1.cpp(57): warning C4305: '=' : truncation from 'double' to 'float'
+     1>KFTracking1.cpp(58): warning C4305: '=' : truncation from 'double' to 'float'
+     1>KFTracking1.cpp(61): warning C4305: '=' : truncation from 'double' to 'float'
+     1>KFTracking1.cpp(62): warning C4305: '=' : truncation from 'double' to 'float'
+     1>KFTracking1.cpp(104): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>KFTracking1.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>main.cpp(8): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         ModelData.cpp
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\ModelData.h(3): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+         shader.cpp
+     1>shader.cpp(12): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         TrackingGrid1.cpp
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(122): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(134): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(143): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(161): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(182): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(195): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\cesarbragagnini\test_opencv_opengl\vs2015consoletestapp01\vs2015consoletestapp01\Geometria.h(224): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>TrackingGrid1.cpp(28): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>TrackingGrid1.cpp(44): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(103): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(3070) : see reference to function template instantiation 'std::pair<int,int>::pair<int,float,void>(const std::pair<int,float> &)' being compiled
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(3071) : see reference to function template instantiation 'std::pair<int,int>::pair<int,float,void>(const std::pair<int,float> &)' being compiled
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(3127) : see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Unguarded_partition<_RanIt,bool(__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)>(_RanIt,_RanIt,_Pr)' being compiled
+                 with
+                 [
+                     _RanIt=std::pair<int,float> *
+         ,            _Pr=bool (__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(3157) : see reference to function template instantiation 'void std::_Sort<std::pair<int,float>*,__int64,bool(__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)>(_RanIt,_RanIt,_Diff,_Pr)' being compiled
+                 with
+                 [
+                     _RanIt=std::pair<int,float> *
+         ,            _Diff=__int64
+         ,            _Pr=bool (__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)
+                 ]
+                 TrackingGrid1.cpp(23) : see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,float>>>>,bool(__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)>(_RanIt,_RanIt,_Pr)' being compiled
+                 with
+                 [
+                     _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,float>>>>
+         ,            _Pr=bool (__cdecl *)(const std::pair<int,int> &,const std::pair<int,int> &)
+                 ]
+     1>Done Building Project "D:\CesarBragagnini\Test_OpenCV_OpenGL\VS2015ConsoleTestApp01\VS2015ConsoleTestApp01\VS2015ConsoleTestApp01.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.16
